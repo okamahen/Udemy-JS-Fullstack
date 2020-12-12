@@ -1,3 +1,10 @@
+/*
+Before using this code, ensure that folder already accessed in VS Code, and install express.
+First, access terminal with: ( ctrl + ` )
+Then install express with npm install express
+see file > node_modules and find express to verify installation
+*/
+
 let express = require("express")
 let app = express()
 //NOTE : tried to use focus to form input but does not work!
