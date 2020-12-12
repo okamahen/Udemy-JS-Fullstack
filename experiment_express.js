@@ -18,8 +18,6 @@ app.get('/', function(req, res) {
     `)
 })
 
-
-
 //Example for POST, to catch value on a form and send/post it to another page named "answer"
 app.post('/answer', function(req, res) {
     //Out of box, Express will not add user input to the body object, so we need to execute line 5 (app.use)
