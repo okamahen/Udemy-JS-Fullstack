@@ -9,7 +9,8 @@ let express = require("express")
 let app = express()
 //NOTE : tried to use focus to form input but does not work!
 
-//Boilerplate code, used to enable express to catch HTML body object, see line 22
+//Boilerplate code, used to enable express to catch HTML body object, see line 23
+//Take submitted form data, and add on body object that lives in send().
 app.use(express.urlencoded({extended: false}))
 
 //get is from Express, it use 2 argument, 1st is for URL to look, 2nd is function that Express is going to run 
